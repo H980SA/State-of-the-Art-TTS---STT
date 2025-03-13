@@ -34,7 +34,7 @@ response = requests.post(url, json=payload, headers=headers)
 # Comprobar si la solicitud fue exitosa
 if response.status_code == 200:
     # Guardar el contenido de audio en un archivo
-    output_file = "output_audio.mp3"  # Cambiado a .mp3 según el formato solicitado
+    output_file = "cartesiana.mp3"  # Cambiado a .mp3 según el formato solicitado
     with open(output_file, "wb") as f:
         f.write(response.content)
     print(f"Audio guardado correctamente en {output_file}")

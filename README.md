@@ -26,8 +26,33 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 | **Azure Speech** | $16 (neural) | Cloud-based | <80ms | 9 | Low |
 | **IBM Watson** | $20 | Cloud-based | <200ms | 7 | Medium |
 | **ElevenLabs** | $180 | Cloud-based | 1-2s | 9.5 | Low |
+| **Cartesiana** | Free: 20K Credits<br>Pro: $5/mo (100K Credits) | Cloud-based | - | - | Low |
 | **Piper (offline)** | Free | CPU + 4GB VRAM | <50ms | 8 | High |
 | **Coqui TTS (offline)** | Free | GPU recommended | 200-500ms | 7 | High |
+
+## 💰 Free Tier Pricing Information
+
+### Google Cloud TTS
+- **Free tier:** 0 to 4 million characters
+- **After free tier:** $0.000004 per character ($4 per 1 million characters) for Standard voices
+- **SKU:** 9D01-5995-B545
+
+### Cartesiana
+- **Free Plan ($0/month):** 
+  - 20K Credits
+  - 2 Parallel Requests
+  - Discord Support
+  - 15 Languages
+  - Infilling
+  - No Commercial Use
+  
+- **Pro Plan ($5/month):**
+  - 100K Credits
+  - 3 Parallel Requests
+  - Commercial Use
+  - Instant Cloning
+  - Voice Changer
+  - Localization
 
 ### Speech-to-Text (STT) Solutions
 
