@@ -1,8 +1,5 @@
 # State of the Art: Comparative Analysis of TTS & STT Technologies
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Unity-lightgrey.svg)
-![Languages](https://img.shields.io/badge/languages-C%23%20%7C%20Python-yellow.svg)
 
 ## 📝 Overview
 
@@ -73,26 +70,6 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 - Python 3.8+
 - For local models: GPU with appropriate VRAM (see requirements above)
 
-### Installation
-
-```bash
-# Clone this repository
-git clone https://github.com/yourusername/state-of-art-tts-stt.git
-
-# Set up Python environment
-cd state-of-art-tts-stt
-
-# On Windows:
-python -m venv .venv
-.venv\Scripts\activate
-
-# On Unix/MacOS:
-# python -m venv .venv
-# source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ## 📁 Project Structure
 
@@ -128,19 +105,6 @@ All technologies were tested using:
    - Voice quality ratings (for TTS)
    - Resource utilization
 
-### Running Tests
-
-```bash
-# Run TTS benchmark tests
-python evaluation/benchmark_tts.py
-
-# Run STT benchmark tests
-python evaluation/benchmark_stt.py
-
-# Generate comparison report
-python evaluation/generate_report.py
-```
-
 ## 🔍 Key Findings
 
 ### TTS Insights
@@ -164,15 +128,3 @@ python evaluation/generate_report.py
 - **Cloud integration:** Azure offers the simplest Unity SDK
 - **Mobile applications:** Consider latency and bandwidth constraints
 - **Desktop applications:** Local models may offer cost advantages at scale
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue or contact [your-email@example.com].
