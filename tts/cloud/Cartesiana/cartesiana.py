@@ -20,7 +20,7 @@ payload = {
         "bit_rate": 128000,
         "sample_rate": 44100
     },
-    "language": "en"
+    "language": "es"  # Cambiado a español para coincidir con el texto
 }
 headers = {
     "Cartesia-Version": "2024-06-10",
@@ -33,8 +33,9 @@ response = requests.post(url, json=payload, headers=headers)
 
 # Comprobar si la solicitud fue exitosa
 if response.status_code == 200:
-    # Guardar el contenido de audio en un archivo
-    output_file = "cartesiana.mp3"  # Cambiado a .mp3 según el formato solicitado
+    # Guardar el contenido de audio en un archivo usando paths correctos para Windows
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    output_file = os.path.join(current_dir, "cartesiana.mp3")
     with open(output_file, "wb") as f:
         f.write(response.content)
     print(f"Audio guardado correctamente en {output_file}")

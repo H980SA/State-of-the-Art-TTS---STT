@@ -81,8 +81,14 @@ git clone https://github.com/yourusername/state-of-art-tts-stt.git
 
 # Set up Python environment
 cd state-of-art-tts-stt
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+
+# On Windows:
+python -m venv .venv
+.venv\Scripts\activate
+
+# On Unix/MacOS:
+# python -m venv .venv
+# source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
