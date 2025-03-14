@@ -1,18 +1,18 @@
 # State of the Art: Comparative Analysis of TTS & STT Technologies
 
 
-## 📝 Overview
+## Overview
 
 This repository presents a comprehensive analysis of current Text-to-Speech (TTS) and Speech-to-Text (STT) technologies in 2023-2024. The research compares cloud-based API solutions and local open-source models, with detailed metrics on:
 
-- 💰 **Pricing structures & cost efficiency**
-- 💻 **Computational requirements**
-- ⏱️ **Latency performance**  
-- 🔊 **Audio quality & accuracy**
-- 🇪🇸 **Spanish language support**
-- 🎮 **Unity integration compatibility**
+- **Pricing structures & cost efficiency**
+- **Computational requirements**
+- **Latency performance**  
+- **Audio quality & accuracy**
+- **Spanish language support**
+- **Unity integration compatibility**
 
-## 📊 Technology Comparisons
+## Technology Comparisons
 
 ### Text-to-Speech (TTS) Solutions
 
@@ -27,7 +27,7 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 | **Piper (offline)** | Free | CPU + 4GB VRAM | <50ms | 8 | High |
 | **Coqui TTS (offline)** | Free | GPU recommended | 200-500ms | 7 | High |
 
-## 💰 Free Tier Pricing Information
+## Free Tier Pricing Information
 
 ### Google Cloud TTS
 - **Free tier:** 0 to 4 million characters
@@ -62,7 +62,7 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 | **Whisper (local)** | Free | GPU 5-10GB VRAM | Batch processing | ~95% | High |
 | **Vosk (offline)** | Free | CPU / 300MB RAM | Real-time | ~90% | Medium |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 - For local models: GPU with appropriate VRAM (see requirements above)
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /
@@ -92,7 +92,7 @@ This repository presents a comprehensive analysis of current Text-to-Speech (TTS
 └── README.md                 # This file
 ```
 
-## 📊 Performance Testing
+## Performance Testing
 
 ### Testing Methodology
 
@@ -105,7 +105,7 @@ All technologies were tested using:
    - Voice quality ratings (for TTS)
    - Resource utilization
 
-## 🔍 Key Findings
+## Key Findings
 
 ### TTS Insights
 - **Cloud services:** ElevenLabs provides the highest quality but at premium pricing
@@ -117,7 +117,7 @@ All technologies were tested using:
 - **Real-time needs:** Vosk is optimal for low-latency requirements
 - **Enterprise scale:** Azure Speech offers the best pricing for high-volume transcription
 
-## 🔮 Recommendations
+## Recommendations
 
 ### For Production Applications
 - **High-quality voice needs:** ElevenLabs or Google WaveNet
